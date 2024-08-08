@@ -15,13 +15,13 @@
                 <nav class="header__menu">
                     <ul class="header__links-list">
                       <li class="header__links-list-item header__links-list-item_no-bullit">
-                        <a class="header-link">главная</a>
+                        <a class="header-link_active">главная</a>
                       </li>
                       <li class="header__links-list-item">
-                        <a class="header-link_active" href="#">посмотреть лоты</a>
+                        <a class="header-link" href="#">посмотреть лоты</a>
                       </li>
                       <li class="header__links-list-item">
-                        <a class="header-link_active" href="#">об аукционе</a>
+                        <a class="header-link" href="#">об аукционе</a>
                       </li>
                     </ul>
                 </nav>
@@ -30,7 +30,7 @@
                   <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип оно тебе надо">
                 </div>
 <!-- Создаем адрес в шапке -->
-                <adress class="header_adress">
+                <adress class="header__adress">
                   <a class="header-link_active" href="tel:+99995555555">+9 999 555 5555</a>
                   <br><a class="header-link_active" href="mailto:mail@example.com">info@sobaka.ge</a>
                   <br>
@@ -41,7 +41,7 @@
                 </adress>
             </header>
     
-              <main>
+              <main class="main">
     
 <!-- Создаем секцию с обложкой -->
                     <section class="section section-cover">
@@ -66,34 +66,55 @@
                     </section>
     
                     <section class="section section-about">
-    
+
                     </section>
-    
                 </main>
     
             <footer class="footer">
+<!-- Создаем адрес в футере -->
+              <adress class="adress">
+                <a class="header-link_active" href="tel:+99995555555">+9 999 555 5555</a>
+                <br><a class="header-link_active" href="mailto:mail@example.com">info@sobaka.ge</a>
+                <br>
+                <p class="header-link">наб. Принсенграхт 263-
+                <br
+                 <span>265, Амстердам</span>
+                 </p>
+              </adress>
+
 <!-- Создаем навигационное меню в футере -->
  
               <nav class="footer__menu">
                 <ul class="footer__menu-list">
                   <li class="footer__menu-list-item">
-                    <a class="footer__menu-link">главная</a>
+                    <a class="footer__menu-link_active">главная</a>
                   </li>
                   <li class="footer__menu-list-item">
-                    <a href="#" class="footer__menu-link footer__menu-link_active">посмотреть лоты</a>
+                    <a href="#" class="footer__menu-link">посмотреть лоты</a>
                   </li>
                   <li class="footer__menu-list-item">
-                    <a href="#" class="footer__menu-link footer__menu-link_active">об аукционе</a>
+                    <a href="#" class="footer__menu-link">об аукционе</a>
                   </li>
                 </ul>
             </nav>
-<!-- Создаем адрес в футере -->
-            <adress class="header_adress">
-              <a class="header-link_active" href="tel:+99995555555">+9(999)555-55-55</a>
-              <br><a class="header-link_active" href="mailto:mail@example.com">info@sobaka.ge</a>
-              <br><p class="header-link">наб. Принтсенграхт 263-265, Амстердам</p>
-            </adress>
+<!-- Создаем иконки-ссылки соцсетей -->
+
+              <ul class="footer__social-list">
+                <li class="footer__social-list-item">
+                    <a href="#" class="footer-social-link">
+                      <img src="./images/yt.svg" alt="Иконка Ютуба" class="footer__social-icon"></a>
+                </li>
+                <li class="footer__social-list-item">
+                  <a href="#" class="footer-social-link">
+                    <img src="./images/vk.svg" alt="Иконка ВКонтакте" class="footer__social-icon"></a>
+                </li>
+                <li class="footer__social-list-item">
+                  <a href="#" class="footer-social-link">
+                    <img src="./images/pinterest.svg" alt="Иконка Пинтерест" class="footer__social-icon"></a>
+                </li>
+              </ul>
+
             </footer>
     
-        </body> -->
+        </body>
     </html>
