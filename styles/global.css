@@ -5,10 +5,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 3028px;
-  min-height: 100%;
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
