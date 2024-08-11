@@ -36,19 +36,21 @@
     height: 105px;
 }
 
-.adress {
-    font-family: Raleway, sans-serif;
+.address {
+    display: block;
+    font-style: normal;
     line-height: 1.36;
     max-width: 240px;
     text-underline-offset: 4px;
 }
 
-.header__adress {
+.header__address {
     margin-right: 25px;
     justify-self: end;
 }
 
-.adress-link {
+.address-link {
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.01em;
