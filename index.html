@@ -17,7 +17,7 @@
                 <nav class="header__menu">
                     <ul class="header__links-list">
                       <li class="header__links-list-item header__links-list-item_no-bullit">
-                        <a class="header-link header-link_active"href="#" >главная</a>
+                        <a class="header-link header-link_active" href="#">главная</a>
                       </li>
                       <li class="header__links-list-item">
                         <a class="header-link" href="#">посмотреть лоты</a>
@@ -28,19 +28,19 @@
                     </ul>
                 </nav>
 <!-- Добавляем логотип -->
-                <div class="header__logo">
+                <a href="#" class="header__logo">
                   <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип оно тебе надо">
-                </div>
+                </a>
 <!-- Создаем адрес в шапке -->
+              <div class="adress">
                 <adress class="header__adress">
-                  <a class="header-link" href="tel:+99995555555">+9 999 555 5555</a>
-                  <br><a class="header-link" href="mailto:mail@example.com">info@sobaka.ge</a>
+                  <a class="adress-link" href="tel:+99995555555">+9 999 555 5555</a>
+                  <br><a class="adress-link" href="mailto:mail@example.com">info@sobaka.ge</a>
                   <br>
-                  <p class="header-link">наб. Принсенграхт 263-
-                    <br
-                   <span>265, Амстердам</span>
+                  <p class="adress-link">наб. Принсенграхт 263-265, Амстердам
                   </p>
                 </adress>
+              </div>
             </header>
 
 <!-- Создаем основной контент проекта -->
@@ -48,17 +48,16 @@
                
 <!-- Создаем секцию с обложкой -->
                   <section class="section-cover">
-                    <div class="overlay">
+                    <div class="overlay"></div>
                       <h1 class="cover-title">
                         О<span class="letter-spacing_extended">но</span>
                         <span class="text-aligned-center">те<span class="letter-spacing_extended">бе</span></span>
                         <span class="text-aligned-right"><span class="letter-spacing_extended">н</span>ад<span class="no-letter-spacing">о</span></span>
                       </h1>
                       <div class="cover__description">
-                        <h2 class="cover__description-text">аукцион вещей, в которые никто не верил</h2>
-                        <button type="submit"class="bet-button">Сделать ставку</button>
+                        <h3 class="cover__description-text">аукцион вещей, в которые никто не верил</h3>
+                        <button type="submit" class="bet-button">Сделать ставку</button>
                       </div>
-                    </div>
                     </section>
                   
 <!-- Создаем секцию с лотами в виде карточек -->
@@ -114,20 +113,20 @@
 <!-- Создаем футер -->
             <footer class="footer">
 <!-- Создаем адрес в футере -->
-              <adress class="adress">
-                <a class="header-link" href="tel:+99995555555">+9 999 555 5555</a>
-                <br><a class="header-link" href="mailto:mail@example.com">info@sobaka.ge</a>
+            <div class="adress">
+              <adress>
+                <a class="adress-link" href="tel:+99995555555">+9 999 555 5555</a>
+                <br><a class="adress-link" href="mailto:mail@example.com">info@sobaka.ge</a>
                 <br>
-                <p class="header-link">наб. Принсенграхт 263-
-                <br
-                 <span>265, Амстердам</span>
+                <p class="adress-link">наб. Принсенграхт 263-265, Амстердам
                  </p>
               </adress>
+            </div>
 <!-- Создаем навигационное меню в футере -->
               <nav class="footer__menu">
                 <ul class="footer__menu-list">
                   <li class="footer__menu-list-item">
-                    <a class="footer__menu-link footer__menu-link_active">главная</a>
+                    <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
                   </li>
                   <li class="footer__menu-list-item">
                     <a href="#" class="footer__menu-link">посмотреть лоты</a>
@@ -140,15 +139,15 @@
 <!-- Создаем иконки-ссылки соцсетей -->
               <ul class="footer__social-list">
                 <li class="footer__social-list-item">
-                    <a href="#" class="footer-social-link">
+                    <a href="#" class="footer-social-link" target="_blank">
                       <img src="./images/yt.svg" alt="Иконка Ютуба" class="footer__social-icon"></a>
                 </li>
                 <li class="footer__social-list-item">
-                  <a href="#" class="footer-social-link">
+                  <a href="#" class="footer-social-link" target="_blank">
                     <img src="./images/vk.svg" alt="Иконка ВКонтакте" class="footer__social-icon"></a>
                 </li>
                 <li class="footer__social-list-item">
-                  <a href="#" class="footer-social-link">
+                  <a href="#" class="footer-social-link" target="_blank">
                     <img src="./images/pinterest.svg" alt="Иконка Пинтерест" class="footer__social-icon"></a>
                 </li>
               </ul>
